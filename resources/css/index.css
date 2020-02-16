@@ -1,0 +1,201 @@
+
+
+
+html, body {
+    font-size: 16px;
+    margin:0;
+    padding: 0;
+}
+
+
+
+    
+    
+    
+
+header{
+    background-color: #333333;
+    position: fixed;
+    width:100%;
+    z-index: 3;
+}
+
+
+
+#name{
+    padding: 5px 0;
+    text-align: center;
+    background-color: rgb(136, 26, 136);
+   color: white;
+}
+
+nav {
+  
+    text-align: right;
+    margin-right: 20px;
+    padding: 20px 0;
+      
+}
+   
+
+
+li {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    width: 80px;
+
+}
+#name {
+    font-size: 16px;
+    width:140px;
+}
+#strasse {
+     width: 120px;
+}
+main {    
+    
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    
+    
+
+}
+
+#images{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.box{
+   
+   width: 40%;
+   
+    overflow: hidden;
+    
+}
+
+
+
+#box-text {
+    position: relative;
+    top: 100px;
+    z-index: 1;
+}
+
+img{
+    
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+.supporting{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+
+.box2 {
+    
+       
+       padding: 60px 40px;
+       border: solid rgb(136, 26, 136) 3px;
+       
+       
+    
+       z-index:1;
+       
+
+   }  
+
+   
+.insta {
+       background-color: rgb(136, 26, 136);
+       color: white;
+       padding: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+   
+
+   
+      
+   }
+    
+
+.mail {
+    background-color: rgb(136, 26, 136);
+    color: white;
+    padding: 10px 10px;
+ text-decoration: none;
+ text-transform: uppercase;
+
+   }
+   #logo{
+    position: relative;
+   top: -10px;
+  left:80px;
+   z-index: 3;
+   } 
+
+   #logo span{
+    background-color: rgb(136, 26, 136);
+    color: white;
+    font-weight: 600px;
+    letter-spacing: 1.3px;;
+    padding: 15px 10px;
+ text-decoration: none;
+ text-transform: uppercase ;
+
+
+   }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+  }
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  
+
+
+  
+    
+  
+
+  .btn-main {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
