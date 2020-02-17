@@ -120,7 +120,7 @@ img{
 
 .box2 {
     
-       max-width: 30%;
+       width: 30%;
        padding: 60px 40px;
        border: solid rgb(136, 26, 136) 3px;
        z-index:2;
