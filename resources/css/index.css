@@ -15,6 +15,7 @@ html, body {
 
 header{
     background-color: #333333;
+    opacity: 0.9;
     position: fixed;
     width:100%;
     z-index: 3;
@@ -23,10 +24,13 @@ header{
 
 
 #name{
+    position: relative;
+    bottom: 10px;
     padding: 5px 0;
     text-align: center;
     background-color: rgb(136, 26, 136);
    color: white;
+  
 }
 
 nav {
@@ -48,10 +52,7 @@ li {
     width: 80px;
 
 }
-#name {
-    font-size: 16px;
-    width:140px;
-}
+
 #strasse {
      width: 120px;
 }
@@ -85,9 +86,18 @@ justify-content: center;
 
 
 #box-text {
+    
+    
+  
     position: relative;
-    top: 100px;
+    
+   font-size: 1.2rem;
+    top: 130px;
+    padding: 0 3rem;
+    
     z-index: 1;
+    overflow: hidden;
+    
 }
 
 img{
@@ -110,13 +120,13 @@ img{
 
 .box2 {
     
-       
+       max-width: 30%;
        padding: 60px 40px;
        border: solid rgb(136, 26, 136) 3px;
-       
+       z-index:2;
        
     
-       z-index:1;
+       
        
 
    }  
@@ -146,9 +156,9 @@ img{
    }
    #logo{
     position: relative;
-   top: -10px;
+   top: 25px;
   left:80px;
-   z-index: 3;
+   z-index: 1;
    } 
 
    #logo span{
@@ -162,8 +172,18 @@ img{
 
 
    }
+
+   .supporting2{
+    display: flex;
+  align-items: center;
+    flex-direction: column;
+    
+    
+  
+}
 footer {
     background-color: #333;
+    opacity: 0.9;
     color: #fff;
     padding: 10px 0;
     position: fixed;
@@ -186,16 +206,4 @@ footer p {
     
   
 
-  .btn-main {
-    background-color: #333;
-    color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1.3px;
-    margin-top: 10px;
-    padding: 10px 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-
+  
