@@ -120,8 +120,10 @@ img{
 
 .box2 {
     
-       width: 30%;
-       padding: 60px 40px;
+    width: 40%;
+   
+    overflow: hidden;
+       padding: 40px 10px;
        border: solid rgb(136, 26, 136) 3px;
        z-index:2;
        
