@@ -78,12 +78,12 @@ justify-content: center;
 .box{
    
    width: 40%;
-   
+                                                                                             
     overflow: hidden;
     
 }
 
-
+                         
 
 #box-text {
     
@@ -98,7 +98,7 @@ justify-content: center;
     z-index: 1;
     overflow: hidden;
     
-}
+}                                                     
 
 img{
     
@@ -120,9 +120,10 @@ img{
 
 .box2 {
     
-    width: 40%;
-   
-    overflow: hidden;
+    width: 40%;        
+             
+    overflow: hidden;                       
+      text-align: center;                
        padding: 40px 10px;
        border: solid rgb(136, 26, 136) 3px;
        z-index:2;
