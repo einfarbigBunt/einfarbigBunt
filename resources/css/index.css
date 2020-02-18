@@ -1,0 +1,222 @@
+
+
+
+html, body {
+    font-size: 16px;
+    margin:0;
+    padding: 0;
+}
+
+
+
+    
+    
+    
+
+header{
+    background-color: #333333;
+    opacity: 0.9;
+    position: fixed;
+    width:100%;
+    z-index: 3;
+}
+
+
+
+
+
+.item{
+    position:relative;
+    background-color: rgb(136, 26, 136);
+    padding: 5px 5px;
+    text-align: center;
+}
+
+
+#bin{
+    
+   
+    top: 10px;
+}
+
+#einfarbig{
+    
+    top: 20px;
+    
+    
+}
+#bunt{
+    
+    top: 5px;
+   
+}
+
+nav {
+    
+    text-align: center;
+    margin-right: 20px;
+    padding: 20px 0;
+      
+}
+   
+
+
+li {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;flex-wrap: nowrap;
+  
+  
+
+}
+
+#strasse {
+     width: 120px;
+     margin-left: 5px;
+}
+main {    
+    
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 120px;
+    
+    
+
+}
+
+#images{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+
+.box{
+ 
+   width: 40%;
+   
+    overflow: hidden;
+    z-index: 1;
+    
+}
+
+
+
+#box-text {
+    
+    
+  
+    position: relative;
+    
+   font-size: 1.2rem;
+    top: 130px;
+    padding: 0 3rem;
+    
+    z-index: 2;
+    overflow: hidden;
+    
+}
+
+img{
+    
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.section{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.supporting{
+    
+   
+    
+   margin-top: 3rem;
+   z-index:1;
+    
+  
+}
+
+
+   
+       
+    
+.insta {
+       background-color: rgb(136, 26, 136);
+       color: white;
+       padding: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+   
+
+   
+      
+   }
+
+
+   
+    
+  
+
+.mail {
+    
+    background-color: rgb(136, 26, 136);
+    color: white;
+    padding: 10px 10px;
+
+ text-decoration: none;
+ text-transform: uppercase;
+
+   }
+   
+
+ 
+
+   .supporting2{
+       margin-top: 3rem;
+    display:flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+    
+    
+    
+  
+}
+footer {
+    background-color: #333;
+    opacity: 0.9;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+  }
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  
+
+
+  
+    
+  
+
+  
