@@ -9,11 +9,16 @@ html, body {
 
 
 
-    
+ 
     
     
 
 header{
+    display:flex;
+     align-items: center;
+
+     justify-content: center;
+  padding: 1.2rem 0;
     background-color: #333333;
     opacity: 0.9;
     position: fixed;
