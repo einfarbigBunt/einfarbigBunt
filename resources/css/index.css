@@ -27,8 +27,21 @@ header{
 }
 
 
+@media only screen and (max-width: 600px) {
+    header  {
+
+      background-color:hsl(300, 40%, 50%);
+   
+    }
+
+    
+   
+
+  }
 
 
+
+  
 
 .item{
     position:relative;
@@ -207,6 +220,11 @@ footer {
     width: 100%;
     bottom: 0;
     
+  }
+  @media only screen and (max-width: 600px) {
+    footer {
+        background-color:hsl(300, 40%, 50%);
+    }
   }
 
 footer p {
