@@ -114,11 +114,11 @@ justify-content: center;
 
 
 .box{
- 
-   width: 40%;
    
-    overflow: hidden;
-    z-index: 1;
+   width: 40%;
+   overflow: hidden;
+    
+   
     
 }
 
@@ -138,6 +138,71 @@ justify-content: center;
     overflow: hidden;
     
 }
+
+
+
+.box-bilder {
+    position: relative;
+   
+    
+  
+    
+
+}
+
+.box-bilder .kreis {
+    position: absolute;
+    
+    top: 3.2rem;
+    bottom: 3.9rem;
+   left: 0.3rem;
+    
+    
+    width: 100%;
+    height: auto;
+    
+    
+}
+   #bmw{
+       width: 40%;
+       overflow: visible;
+       
+   } 
+
+   @media only screen and (max-width: 980px) {
+   #bmw  {
+
+    position: relative;
+    right: 3rem;
+    bottom: 1.5rem;
+     opacity: 0.1;
+     
+   
+    }
+
+    
+}
+
+
+  #audio{
+    position: relative;
+   
+    max-width: 100%;
+    height: auto;
+    bottom: 2.2rem;
+    
+   
+    
+   
+    z-index: 5;
+}
+
+audio {
+
+    width: 100%;
+}
+
+ 
 
 img{
     
