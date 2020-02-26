@@ -139,8 +139,6 @@ justify-content: center;
     
 }
 
-
-
 .box-bilder {
     position: relative;
    
@@ -149,6 +147,8 @@ justify-content: center;
     
 
 }
+
+
 
 .box-bilder .kreis {
     position: absolute;
