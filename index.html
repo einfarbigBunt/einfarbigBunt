@@ -7,36 +7,26 @@
     <link rel="stylesheet" href="./resources/css/index.css">
 </head>
 <body>
-    <div id="background">
+   
     <header>
         
     <nav>
-        <ul>
-           
-                <li id="ich" class="item"> Ich  </li>
-                <li id="bin" class="item">bin</li>
+        <ul>            
             <li id="einfarbig" class="item"> einfarbig </li>
-            <li id=bunt class="item"> bunt</li>
-           <li id="zeichen" class="item">!</li>
-            <li id="strasse">Prinzregentenstr. 95</li>
-            <li> 10717 Berlin</li>
-            
+            <li id=bunt class="item"> bunt</li>      
             
         </ul>
     </nav>
    
-</header>
+    </header>
 
-<main>
-    
 
     
-    
-    <div id="images"> 
+<div class="images"> 
         
        
             <div class="box">
-                <div id="box-text">
+                <div class="box-text">
                     <p>Das Universum in meinem Kaffee.</p> 
                 </div>
                      
@@ -44,52 +34,49 @@
                       alt="erstes Bild" />
                     
                     
-            </div>
-       
-          
-            
-        
+            </div>  
         
         <div class="box">
-            
-            
-          <img class="right" src= "./resources/images/einfach_ich11.JPG" alt="zweites Bild"/>
-          
+             <img class="right" src= "./resources/images/einfach_ich11.JPG" alt="zweites Bild"/>
                  
       </div>
-        
         <div class="box">
-
-            <div class="box-bilder">
-          
-            <img  src=" https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb"
+        <div class="box-flex">
+            <div class= "image-box">
+           <img  id="coffee" src=" https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb"
              alt="erstes Bild"/>
-                 <div class="kreis">
-                <img id ="bmw" src= "./resources/images/bmw.png" alt="BMW" />
-             
-                </div>
-             </div>
-             <div id="audio">
-             <audio src="./resources/videoAudio/BMW_Freiheit.mp3" controls>Das Audio kann nicht abgespielt werden</audio>
             </div>
-         </div>
+           
+             <div class="bmw-box">
+           <img id ="bmw" src= "./resources/images/bmw.png" alt="BMW" />
+             </div>
+        </div>
+
+             <div class="audio-box">
+                <audio id="audio" src="./resources/videoAudio/BMW_Freiheit.mp3" controls>Das Audio kann nicht abgespielt werden</audio>
+                </div>
+             
+           
+         
+         
+        </div>
+
+    </div>     
+         
 
 
-</main>
+    
 <section class ="section">
     
-  <div class="supporting">  
-   
+   <a  id= "insta" href="https://www.instagram.com/efg_bnt/" target="_blank"> Instagram </a>
          
-            <a  class = "insta" href="https://www.instagram.com/efg_bnt/" target="_blank"> Instagram </a>
-         
-    </div>
+    
    
         
-    </div>
-</div>    
+
+
     
-    <div class ="supporting2">
+ 
        
         <h4>Katharina Maier</h4>
         <h4>...</h4>
@@ -98,12 +85,12 @@
         <h3>7.</h3>
         <h3>8.</h3>
    
-            <a  class ="mail" href="mailto:kat3891@gmx.de"> schreib mir</a>
+            <a  id ="mail" href="mailto:kat3891@gmx.de"> schreib mir</a>
      
         <h2></h2>
         <h2></h2>
         <h2></h2>
-    </div>
+ 
 
          
 </section>      
@@ -117,9 +104,12 @@
     <footer>
         <div class="container">
             <p>&copy; Me 2020 </p>
+            <p>Prinzregentenstr. 95, 10717 Berlin </p>
           </div>
     </footer>
     </div>
+
+    <script type="text/javascript" src="/resources/script.js"> </script>
 </body>
 </html>
 
