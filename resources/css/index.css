@@ -85,7 +85,8 @@ li {
 .images{
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-around;
+flex-wrap: wrap;
 padding-top: 8rem;
 
 }
@@ -96,69 +97,59 @@ padding-top: 8rem;
    
    width: 40%;
   
-  text-align: center;
+  text-align: left;
 }
 
 
 
-.box-text {
+.text {
     
+    margin-top: -0.5rem;
+    color: #fff;
+    background-color: rgb(136, 26, 136);
+    font-weight: 400;
     
-    position: relative;
-    top: 60px;
-    
+    border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 1.2rem;
-   
-   
+   text-align: left;
+   width:99.8%;
     
     z-index: 2;
     
     
 }
 
-.box-flex{
-    display: flex;
-    
-    flex-wrap: nowrap;
-   
- 
-  align-items: center;
- 
-    
-}
+
 
 .image-box {
     
-    margin-right: 0.0rem;
-   
-    width: 30%;
-    flex-shrink: 5;
-    flex-grow: 1;
+    
 }
 
 .bmw-box{
     
-    margin-left: -4.5rem;
+    margin-left: 0rem;
     margin-right: 0rem;
   padding-top: 0.3rem ;
    background-color:  #333333;
     border-left: 1px solid white;    
-    width: 10%;
+   
    
    
     flex-grow: 0.5;
 }
 .audio-box {
    
-    margin-top: -0.5rem;
+    margin-top: -0.0rem;
    width:100%;
  
     
 }
 
 #bmw {
-    width: 50%;
     
+  width: 50%;  
     
    } 
 
@@ -174,18 +165,14 @@ padding-top: 8rem;
      .box-text {
          font-size: 0.8rem;
      }  
-  #coffee{
-      opacity: 0.0;
   
-  
-    }  
     @media only screen and (max-width: 500px){
         .box-text{
             display: none;
         }
     } 
 .bmw-box{
-    width:105%;
+    width:100%;
     z-index: -1;
     
 
@@ -196,7 +183,7 @@ padding-top: 8rem;
 
   
 
-audio {
+audio, video{
     width: 100%; 
 }
 
