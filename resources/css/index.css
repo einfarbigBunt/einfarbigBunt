@@ -108,20 +108,28 @@ padding-top: 0rem;
   
 }
 
-
-
-.text {
-    
-    margin-top: -2rem;
+.box-flex{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+}
+.item-flex2 {
+    margin-top: -2.5rem;
+   
+    flex-shrink: 6;
+    flex-grow: 3;
+    text-align: center;
     color: #fff;
-    
-   font-size: 1.2rem;
-   text-align: left;
-   width:100%;
-  
-    
+
+}
+.item-flex1 {
+    flex-shrink: 2;
+    flex-grow: 2;
     
 }
+.
+
 
 
 
@@ -166,18 +174,16 @@ padding-top: 0rem;
     
 }
 
-@media only screen and (min-width: 601px) and (max-width: 1000px){
-    .text{
-        display: none;
+@media only screen and (max-width: 900px){
+    .item-flex2{
+        font-size: 0.9rem;
+       
     }
 } 
    
- @media only screen and (max-width: 600px){
+ @media only screen and (max-width: 500px){
      .text {
-         line-height: 6;
-         font-size: 0.9rem;
-         margin-top: -9rem;
-         text-align: center;
+        display:none
      }  
 
   
