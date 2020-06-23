@@ -86,36 +86,39 @@ li {
 display: flex;
 align-items: center;
 justify-content: space-around;
-flex-wrap: wrap;
-padding-top: 8rem;
+flex-wrap: nowrap;
+margin-top: 2rem;
+padding-top: 0rem;
 
 }
 
-
+.new{
+    display: flex;
+    justify-content: center;
+    padding-top:  8rem;
+    
+}
 
 .box{
    
    width: 40%;
   
-  text-align: left;
+   
+  
+  
 }
 
 
 
 .text {
     
-    margin-top: -0.5rem;
+    margin-top: -2rem;
     color: #fff;
-    background-color: rgb(136, 26, 136);
-    font-weight: 400;
     
-    border: 1px solid black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 1.2rem;
    text-align: left;
-   width:99.8%;
-    
-    z-index: 2;
+   width:100%;
+  
     
     
 }
@@ -133,7 +136,7 @@ padding-top: 8rem;
     margin-right: 0rem;
   padding-top: 0.3rem ;
    background-color:  #333333;
-    border-left: 1px solid white;    
+    text-align: center; 
    
    
    
@@ -147,6 +150,11 @@ padding-top: 8rem;
     
 }
 
+#coffee {
+    
+}
+
+
 #bmw {
     
   width: 50%;  
@@ -158,22 +166,22 @@ padding-top: 8rem;
     
 }
 
-
+@media only screen and (min-width: 601px) and (max-width: 1000px){
+    .text{
+        display: none;
+    }
+} 
    
-
-   @media only screen and (max-width: 890px){
-     .box-text {
-         font-size: 0.8rem;
+ @media only screen and (max-width: 600px){
+     .text {
+         font-size: 0.7rem;
+         margin-top: -1.5rem;
      }  
   
-    @media only screen and (max-width: 500px){
-        .box-text{
-            display: none;
-        }
-    } 
+    
 .bmw-box{
     width:100%;
-    z-index: -1;
+   
     
 
 }
