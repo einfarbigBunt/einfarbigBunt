@@ -21,7 +21,7 @@ header{
      padding: 1.2rem 0;
     background-color: #333333;
     opacity: 0.9;
-    position: fixed;
+    
   width: 100%;
     z-index: 3;
     border: solid 1px black;
@@ -43,8 +43,9 @@ header{
 .item{
     position:relative;
     background-color: rgb(136, 26, 136);
+    color: #fff;
     padding: 5px 5px;
-    text-align: center;
+    
 }
 
 #einfarbig{
@@ -68,7 +69,7 @@ nav {
 
 
 li {
-    color: #fff;
+   
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 12px;
@@ -81,23 +82,55 @@ li {
 
 
 
-
 .images{
 display: flex;
 align-items: center;
 justify-content: space-around;
 flex-wrap: nowrap;
-margin-top: 2rem;
+margin-top: 0.0rem;
 padding-top: 0rem;
 
 }
 
-.new{
-    display: flex;
-    justify-content: center;
-    padding-top:  8rem;
+#ich-info{
+    display: none;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-left: 0.2rem;
+    color: background-color: #333333;
+   
     
 }
+#ich-button  {
+    
+    
+ min-width: 70px;
+ min-height: 20px;
+ cursor: pointer;
+ 
+
+
+    
+}
+
+#danke-button{
+    height: 20px;
+    position: bottom;
+}
+#ich span {
+   
+}
+.ich{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:  1rem 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    border: 1px solid white;
+    }
 
 .box{
    
@@ -128,10 +161,6 @@ padding-top: 0rem;
     flex-grow: 2;
     
 }
-.
-
-
-
 
 .image-box {
     
