@@ -1,0 +1,316 @@
+
+
+
+html, body {
+    font-size: 16px;
+    margin:0 auto;
+    padding: 0;
+}
+
+
+
+ 
+    
+    
+
+header{
+    display:flex;
+     align-items: center;
+
+     justify-content: center;
+     padding: 1.2rem 0;
+    background-color: #333333;
+    opacity: 0.9;
+    
+  width: 100%;
+    z-index: 3;
+    border: solid 1px black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    header  {
+
+      background-color:hsl(300, 40%, 50%);
+   
+    }
+
+    
+   
+
+  }
+
+.item{
+    position:relative;
+    background-color: rgb(136, 26, 136);
+    color: #fff;
+    padding: 5px 5px;
+    
+}
+
+#einfarbig{
+    
+    top: 20px;
+    
+    
+}
+#bunt{
+     top: 5px;
+   
+}
+
+nav {
+    
+    margin-right: 20px;
+   
+      
+}
+   
+
+
+li {
+   
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    flex-wrap: nowrap;
+  
+  
+
+}
+
+
+
+.images{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap: nowrap;
+margin-top: 0.0rem;
+padding-top: 0rem;
+
+}
+
+#ich-info{
+    display: none;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-left: 0.2rem;
+    color: background-color: #333333;
+   
+    
+}
+#ich-button  {
+    
+    
+ min-width: 70px;
+ min-height: 20px;
+ cursor: pointer;
+ 
+
+
+    
+}
+
+#danke-button{
+    height: 20px;
+    position: bottom;
+}
+#ich span {
+   
+}
+.ich{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:  1rem 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    border: 1px solid white;
+    }
+
+.box{
+   
+   width: 40%;
+  
+   
+  
+  
+}
+
+.box-flex{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+}
+.item-flex2 {
+    margin-top: -2.5rem;
+   
+    flex-shrink: 6;
+    flex-grow: 3;
+    text-align: center;
+    color: #fff;
+
+}
+.item-flex1 {
+    flex-shrink: 2;
+    flex-grow: 2;
+    
+}
+
+.image-box {
+    
+    
+}
+
+.bmw-box{
+    
+    margin-left: 0rem;
+    margin-right: 0rem;
+  padding-top: 0.3rem ;
+   background-color:  #333333;
+    text-align: center; 
+   
+   
+   
+    flex-grow: 0.5;
+}
+.audio-box {
+   
+    margin-top: -0.0rem;
+   width:100%;
+ 
+    
+}
+
+#coffee {
+    
+}
+
+
+#bmw {
+    
+  width: 50%;  
+    
+   } 
+
+
+   #audio{
+    
+}
+
+@media only screen and (max-width: 900px){
+    .item-flex2{
+        font-size: 0.9rem;
+       
+    }
+} 
+   
+ @media only screen and (max-width: 500px){
+     .text {
+        display:none
+     }  
+
+  
+    
+.bmw-box{
+    width:100%;
+   
+    
+
+}
+    
+}
+
+
+  
+
+audio, video{
+    width: 100%; 
+}
+
+ 
+
+img{ 
+    width: 100%;
+    height: auto;   
+}
+
+
+.section{
+
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+    flex-direction: column;
+}
+
+
+   
+       
+    
+#insta {
+    margin-top: 3rem;
+    background-color: rgb(136, 26, 136);
+    color: white;
+    padding: 10px 10px; 
+    text-transform: uppercase;
+    text-decoration: none;
+   
+   
+
+   
+      
+   }
+
+
+#mail {
+    
+    background-color: rgb(136, 26, 136);
+    color: white;
+    padding: 10px 10px;
+
+ text-decoration: none;
+ text-transform: uppercase;
+
+   }
+   
+
+ 
+
+   
+footer {
+    background-color: #333;
+    opacity: 0.9;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+  }
+  @media only screen and (max-width: 600px) {
+    footer {
+        background-color:hsl(300, 40%, 50%);
+    }
+  }
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  
+
+
+  
+    
+  
+
+  
