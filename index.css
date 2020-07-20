@@ -47,14 +47,17 @@ header{
 .item{
     position:relative;
     background-color: rgb(136, 26, 136);
+    word-spacing: 0.5rem;
     color: #fff;
     padding: 5px 5px;
+   
     
 }
 
 #einfarbig{
     
     top: 10px;
+    border: 1px solid white;
     
     
 }
@@ -64,23 +67,29 @@ header{
 }
 .blog {
     margin-top: 4.5rem;
+   
 }
     
 #blog {
    
     height: 30px;
     margin-left: 20rem;
-
     border: 1px solid white;
   
 
 }
 
-#blog a {
-    color:#fff;
-    text-transform: uppercase;
+ a {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-transform: lowercase;
     text-decoration: none;
     text-align: center;
+    font-size: smaller;
+    font-weight: 600;
+   
+  
+    
 }
 nav {
     display: flex;
@@ -97,12 +106,12 @@ ul {
 
 li {
    
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 12px;
+    
+   
+   
     display: inline-block;
     flex-wrap: nowrap;
-    color: #fff;
+    
     
   
   
@@ -159,6 +168,10 @@ padding-top: 0rem;
     font-size: 0.9rem;
     line-height: 1.6;
     border: 1px solid white;
+    }
+
+    .text{
+        
     }
 
 .box{
