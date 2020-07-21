@@ -16,15 +16,15 @@ html, body {
 header{
     display:flex;
     align-items: center;
-
     justify-content: center;
-     padding-top: 1.2rem ;
+     
+     padding: 0.6rem 0;
     background-color: #333333;
     opacity: 0.9;
     height: 4.2rem;
-  width: 100%;
-    z-index: 1;
-    border: solid 1px black;
+   
+    
+    
 }
 
 

@@ -1,0 +1,75 @@
+
+html, body {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 16px;
+    margin:0 auto;
+    padding: 0;
+}
+
+header{
+   text-align: center;
+    background-color: #333333;
+    color: white;
+    opacity: 0.9;
+    padding: 0.6rem 0;
+    height: 4.2rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    header  {
+      
+      flex-direction: column;
+      
+   
+    }
+    .image-caption {
+        font-size: 0.7rem;
+    }
+
+}
+video, img{
+    width: 100%;
+    
+}
+
+
+
+.spacer{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    max-width: 1200px;
+    margin:auto;
+    border: solid 2px white;
+}
+.column {
+    width:40%;
+    display: flex;
+   
+    flex-direction: column;
+    border: 1px solid white;
+    
+    
+  }
+
+
+
+.image {
+   
+   
+    padding: 0.5rem;
+    border-radius: 7px;
+    margin: 0 auto 2rem auto;
+    background-color: #333333;
+    opacity: 0.9;
+  }
+  .image-box {
+    
+   
+}
+.image-caption{
+    color: white;
+}
