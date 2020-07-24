@@ -30,6 +30,7 @@ header{
 }
 video, img{
     width: 100%;
+    text-align: center;
     
 }
 
@@ -38,38 +39,46 @@ video, img{
 .spacer{
   
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
     max-width: 1200px;
     margin:auto;
-    border: solid 2px white;
-}
-.column {
-    width:40%;
-    display: flex;
+ justify-content: center;
    
-    flex-direction: column;
-    border: 1px solid white;
+}
+
+.cards {
     
+    
+    display: flex;
+    
+    flex-wrap: wrap;
+  
+  
     
   }
-
-
-
-.image {
-   
-   
-    padding: 0.5rem;
-    border-radius: 7px;
-    margin: 0 auto 2rem auto;
+  
+  .column{
+      
+      
+  }
+  .image {
+    width:350px;
     background-color: #333333;
     opacity: 0.9;
+    box-shadow: 5px 15px 15px silver;
+    padding: 0.4rem;
+    margin: 0.4rem;
+   
+
   }
+
+
+
+
   .image-box {
-    
+   
    
 }
 .image-caption{
     color: white;
+    font-size: 0.85rem;
 }
