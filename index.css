@@ -30,19 +30,7 @@ header{
 
 
 
-@media only screen and (max-width: 600px) {
-    header  {
-      
-      flex-direction: column;
-      background-color:hsl(300, 40%, 50%);
-      
-   
-    }
 
-    
-   
-
-  }
 
 .item{
     position:relative;
@@ -50,6 +38,7 @@ header{
     word-spacing: 0.5rem;
     color: #fff;
     padding: 5px 5px;
+    border: 1px solid white;
    
     
 }
@@ -65,16 +54,17 @@ header{
     
    
 }
-.blog {
+.pages {
     margin-top: 4.5rem;
+    margin-left: 20rem;
    
 }
     
 #blog {
    
-    height: 30px;
-    margin-left: 20rem;
-    border: 1px solid white;
+  
+    
+   
   
 
 }
@@ -117,6 +107,8 @@ li {
   
 
 }
+
+
 
 
 
