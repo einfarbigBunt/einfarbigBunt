@@ -86,7 +86,7 @@ nav {
  
   
  
-   border: 1px solid #333333;
+   
       
 }
    
@@ -328,8 +328,14 @@ footer {
     
   }
   @media only screen and (max-width: 600px) {
-    footer {
+    footer, header {
         background-color:hsl(300, 40%, 50%);
+        font-size: 0.8rem;
+    }
+    .pages{
+        margin-top: 0rem;
+        margin-left: 0rem;
+       
     }
   }
 
