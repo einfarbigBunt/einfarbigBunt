@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: efg-bnt.de
-Token: 2a49e4b1f56a484d6bd4aaa0b5fe591f752001869806653d247b5732966c3080
+Token: f07defccbe4342414abec3314127922f9cc71158bda97142d9175fdc58c5f813
