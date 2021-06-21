@@ -20,56 +20,52 @@ header{
     background-color:  #333333;
     opacity: 0.9;
     height: 4.2rem;
+    margin-bottom: 4rem;
   
     
     
 }
 
-
-
-
-
 .item{
     position:relative;
-    background-color: rgb(136, 26, 136);
+    background-color: transparent;
+    word-spacing: 0.1rem;
     word-spacing: 0.5rem;
     color: #fff;
-    padding: 5px 5px;
-    border: 1px solid white;
+    padding: 7px 6px;
+    border-radius: 10%;
+    box-shadow: -1px 0.5px 5px 1px whitesmoke inset;
+    
    
     
 }
 
-
-
-    
+.item:hover{
+    padding: 8px 6px;
+    border: none;
    
+   
+}
+
 
 .pages {
-    margin-top: 2.5rem;
-    padding-left: 2rem;
+    position: fixed;
+    right: 8rem;
+    top: 2.5rem;
+   
   
 }
   
 .title{
     font-weight: bold;
-    
-    text-align: center;
     padding-top: 1.5rem;
 }
-#blog {
-   
-  
-    
-   
-  
 
-}
 
  a {
     font-family: 'Raleway', sans-serif;
     color: #fff;
-    text-transform: lowercase;
+    text-transform: none;
     text-decoration: none;
     text-align: center;
     font-size: smaller;
@@ -83,85 +79,14 @@ header{
     color: red;
     font-size: 0.85rem;
 }
-nav {
- 
- 
-      
+
+
+li {   
+    display: inline-block;                                                                                                                                                                                                                                          
 }
-   
-ul {
-   
-}
-
-li {
-   
-    
-   
-   
-    display: inline-block;
-    flex-wrap: nowrap;
-    
-    
-  
-  
-
-}
-
-
-@media only screen and (max-width: 600px) {
-    header  {
-      
-      flex-direction: column;
-      
-      background-color:hsl(300, 40%, 50%);
-      
-   
-    }
-    .pages{
-        margin-top: 0.5rem;
-      
-        padding-left: 6rem;
-        font-size: 0.8rem;
-        text-align:center;
-    }
-
-   .title{
-      margin-top: 1.5rem;
-   } 
-   
-
-  }
-
-    
-
-
 
 video, img{
-    width: 100%;
-    text-align: center;
-    
-}
-
- #universe{
-    width: 100%;
-    border: solid 1px rgb(136, 26, 136);
-    
- }
-
-.star {
-  display: flex;
-    width: 2%;
-    color: rgb(136, 26, 136);
-    border: 2px solid red
-
-}
-.spacer{
-  
-    display: flex;
-    max-width: 1200px;
-margin: auto;
- 
-justify-content: center;
+    width: 100%;     
 }
 
 .cards {
@@ -169,30 +94,136 @@ justify-content: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   width: 100%;
-   
-  
-  
-    
-  }
-  .pcolumn{
+   }
 
-display:flex;
-flex-wrap: wrap;
+.section{
+      display: flex;
+      justify-content: center;
+      flex-wrap: no-wrap;
+      width: 100%;
+      padding: 0 1%;
+      margin-bottom: 3rem;
+  
+  }
+
+  #red{
+   
+    flex-direction: column;
+    align-items: center;
+   
+   padding-left: 0rem;
+   padding-right: 0rem;
+       background-color: red;
+       background-image: url('./projekte/foto1\ .png');
+       background-blend-mode: multiply;
+      
+       background-size: cover;
+       background-position: 20% 70%;
+     
+   }
+   #red .tiktok-format{
+      
+       box-shadow: 4px 3px 10px red ;  
+   }
+  #lolita {
+      background-image: url("./projekte/cc1.png");
+      background-position: bottom;
+      background-size: 104%;
+      
+  }
+
+
+
+#tiktok {
+   
+ box-shadow:  3px 3px 8px  gray;
+}
+ #coffee {
+     align-items: center;
+     background-image: url('./projekte/coffee7.png');
+     background-position: left bottom;
+     background-size: cover;
+     
+}
+
+
+#universe{
+   
+    border-radius: 50%;
+    width: 70%;
+    box-shadow:  2px 2px 6px  hsl(300, 50%, 24%);
+    
+}
+#shape {
     width: 100%;
-    justify-content: center;
-    margin: 1rem 0;
-    padding-bottom: 2rem;
-    border-bottom: 4px solid  #ece7e7;
-    
-  }
-   
+}
 
-  .column{
+
+.image-hoch{
+    border: 2px solid white;
+    width: 50%;
+}
+.tiktok-format{  
+      width: 30%;   
+}
+
+.video-quer{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+ width: 50%;
+ 
+}
+
+.text{
+   max-width: 50%;
+   
+   font-size: 0.9rem;
+    line-height: 1.6;
+    color: #333333;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+   
+        
+    }
+
+.button{
+    margin: auto 0;
+    background-color: transparent;
+    word-spacing: 0.1rem;
+    color: white;
+    width: 100%;
+    padding: 7px 0;
+    box-shadow: 1px -3px 10px gray inset; 
     
+    
+}
+
+.button:hover{
+    box-shadow: 2px 3px 10px gray; 
+}  
+
+#lolita .button{
+    color:hsl(43, 12%, 34%);
+}
+
+
+
+#red .button {
+    box-shadow: 3px -3px 10px red inset;  
+}
+
+#red .button:hover {
+    box-shadow: 3px 3px 10px red ; 
+   
   
+  
+
     
-  }
+}
   .image {
     width:300px;
     background-color: #333333;
@@ -207,10 +238,7 @@ flex-wrap: wrap;
   }
 
 
-  .image-box {
- 
 
-}
 
  .image-caption{
 
@@ -221,63 +249,79 @@ flex-wrap: wrap;
 }
 
 
-.project-caption {
-    width: 40%;
-    font-size: 0.85em;
-    line-height: 1.6;
-    color: #333333;
-    padding-left: 0.5rem;
-    
-    
-   
 
-
-}
 
 .first-line {
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.7rem;
     font-size: 1rem;
     font-weight: bold;
 }
 
 
-.project{
-
-width:40%;
-text-align: center;
-border: 2px solid white;
 
 
+
+
+@media only screen and (max-width: 600px) {
+    header  {
+      width: 100%;
+      margin-bottom: 4rem;
+      background-color:hsl(300, 84%, 65%);
+    }
+    
+    .pages{
+       
+        margin-top: 0.5rem;
+      font-size: 0.9rem;
+       right: 0.2rem;
+       
+    
+    }
+
+   .title{
+      margin-top: 0.0rem;
+   } 
+
+   .item{
+    padding: 5px 4px;
+   }
+
+   .section{
+       
+    flex-direction: column;
+    align-items: center;
+  
 }
-#tiktok {
-   width:60%;
-
+.tiktok-format{
+    width: 100%;
 }
-#universe{
-  margin-top: 5rem;
-    width: 50%;
-    border-radius: 50%;
-    box-shadow: 2px 2px 3px rgb(136, 26, 136);
-}
-.tiktok{
-    width: 60%;
+.image-hoch, .video-quer {
+   
+    width: 100%;
     
 }
-.center{
-    text-align: center;
+.text{
+    max-width: 100%;
+  
+    padding: 1rem 1rem;
 }
-@media only screen and (max-width: 900px){
-    .project, .project-caption {
-        width: 60%;
-    }
 
-    .project-caption{
-        margin-top: 0.6rem;
-    }
-
-    #universe {
-        margin-top: 0rem;
-        width: 30%;
-    }
-
+#lolita{
+    background-image:  none;
+    background-color:hsl(300, 84%, 65%);
+    
 }
+#lolita .button {
+    color: white;
+}
+
+
+#universe{
+    margin-top: 1rem;
+   width: 25%;
+   
+}
+
+   
+
+  }

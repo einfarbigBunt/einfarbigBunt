@@ -29,9 +29,6 @@ header{
 
 
 
-
-
-
 .item{
     position:relative;
     background-color: rgb(136, 26, 136);
@@ -50,24 +47,14 @@ header{
     
     
 }
-#bunt{
-    
-   
-}
+
 .pages {
     margin-top: 4.5rem;
     margin-left: 20rem;
    
 }
     
-#blog {
-   
-  
-    
-   
-  
 
-}
 
  a {
     font-family: 'Raleway', sans-serif;
@@ -90,21 +77,12 @@ nav {
       
 }
    
-ul {
-   
-}
+
 
 li {
-   
-    
-   
-   
+ 
     display: inline-block;
     flex-wrap: nowrap;
-    
-    
-  
-  
 
 }
 
@@ -147,9 +125,7 @@ padding-top: 0rem;
     height: 20px;
     position: bottom;
 }
-#ich span {
-   
-}
+
 .ich{
     display: flex;
     flex-wrap: wrap;
@@ -162,9 +138,7 @@ padding-top: 0rem;
     border: 1px solid white;
     }
 
-    .text{
-        
-    }
+  
 
 .box{
    
@@ -196,10 +170,6 @@ padding-top: 0rem;
     
 }
 
-.image-box {
-    
-    
-}
 
 .bmw-box{
     
@@ -221,9 +191,7 @@ padding-top: 0rem;
     
 }
 
-#coffee {
-    
-}
+
 
 
 #bmw {
@@ -233,9 +201,7 @@ padding-top: 0rem;
    } 
 
 
-   #audio{
-    
-}
+
 
 @media only screen and (max-width: 900px){
     .item-flex2{
