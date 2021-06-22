@@ -115,7 +115,7 @@ video, img{
    padding-left: 0rem;
    padding-right: 0rem;
        background-color: red;
-       background-image: url('./projekte/foto1\ .png');
+       background-image: url('./projekte/foto1\.png');
        background-blend-mode: multiply;
       
        background-size: cover;
@@ -210,7 +210,7 @@ video, img{
 #lolita .button{
     color:hsl(43, 12%, 34%);
 }
-<<<<<<< HEAD
+
 
 
 
@@ -220,10 +220,10 @@ video, img{
 
 #red .button:hover {
     box-shadow: 3px 3px 10px red ; 
-   
+}
   
   
-=======
+
 .spacer{
   
     display: flex;
@@ -248,7 +248,7 @@ border: 2px dashed white;
 
 display:flex;
 flex-wrap: wrap;
-    width: 100%;
+    width: 33%;
   justify-content: space-evenly;
     margin: 1rem 0;
     padding-bottom: 2rem;
@@ -256,10 +256,12 @@ flex-wrap: wrap;
     
   }
    
->>>>>>> e2b3323bf7c7a9a4d5cca2f2ac2fc08784d48f09
 
-    
+.column {
+    width: 33%;
 }
+    
+
   .image {
     width:300px;
     background-color: #333333;
@@ -285,8 +287,7 @@ flex-wrap: wrap;
 }
 
 
-<<<<<<< HEAD
-=======
+
 .project-caption {
     width: 45%;
    
@@ -297,7 +298,7 @@ flex-wrap: wrap;
     border: 2px solid white;
     
    
->>>>>>> e2b3323bf7c7a9a4d5cca2f2ac2fc08784d48f09
+
 
 
 .first-line {
@@ -308,18 +309,9 @@ flex-wrap: wrap;
 
 
 
-<<<<<<< HEAD
-
-
-=======
-width: 50%;
-text-align: center;
-border: 2px solid white;
 
 
 
-
-}
 #llita{
     padding-top: 22rem;
     
@@ -330,7 +322,7 @@ border: 2px solid white;
 #tiktok {
    width: 60%;
    
->>>>>>> e2b3323bf7c7a9a4d5cca2f2ac2fc08784d48f09
+
 
 @media only screen and (max-width: 600px) {
     header  {
@@ -365,7 +357,7 @@ border: 2px solid white;
 .tiktok-format{
     width: 100%;
 }
-<<<<<<< HEAD
+
 .image-hoch, .video-quer {
    
     width: 100%;
@@ -385,7 +377,7 @@ border: 2px solid white;
 #lolita .button {
     color: white;
 }
-=======
+
 
 .center{
     text-align: center;
@@ -399,7 +391,7 @@ border: 2px solid white;
         margin-top: 0.6rem;
         
     }
->>>>>>> e2b3323bf7c7a9a4d5cca2f2ac2fc08784d48f09
+
 
 
 #universe{
