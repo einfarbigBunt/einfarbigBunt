@@ -95,7 +95,7 @@ video, img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   }
+}
 
 .section{
       display: flex;
@@ -233,16 +233,7 @@ margin: auto;
 justify-content: center;
 }
 
-.cards {
-    
-    display: flex;
- justify-content: center;
 
-   
-  
-  
-    
-  }
   .pcolumn{
 
 display:flex;
@@ -330,12 +321,7 @@ flex-wrap: wrap;
       margin-bottom: 4rem;
       background-color:hsl(300, 84%, 65%);
     }
-    .cards {
-        display: flex;
-     
-        justify-content: center;
-        flex-direction: column;
-    }
+   
  
 
     .pages{
@@ -398,6 +384,28 @@ flex-wrap: wrap;
         width: 80%;
     }
 
+    .cards {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+  
+    
+    }
+     .image {
+         width: 400px;
+         padding: 0.3rem;
+    
+     }
     .project-caption, .project{
         margin-top: 0.6rem;
         
